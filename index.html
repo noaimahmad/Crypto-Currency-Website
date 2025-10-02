@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Crypto Landing</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="nav">
+            <img src="logo.png" class="logo" alt="Brand logo" />
+            <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav"
+                aria-label="Toggle menu">☰</button>
+            <ul id="primary-nav" class="nav-list">
+                <li><a href="https://www.binance.com/en/markets"  id="market">Market</a></li>
+                <li><a id="features" href="https://www.binance.com/en/feature">Features</a></li>
+                <li><a id="whitepapers" href="https://bitcoin.org/bitcoin.pdf">White Papers</a></li>
+                <li><a href="about.html" id="about">About Us</a></li>
+
+            </ul>
+            <a href="#" class="btn lang" id="lang-btn">EN</a>
+
+        </nav>
+
+        <main class="main">
+            <div class="content">
+                <h1 id="hero-title">BUY AND <br>SELL <span>CRYPTO</span></h1>
+                <p id="hero-desc">
+                    World's biggest Cryptocurrency exchange available on web
+                    <br>as well as mobile phone.
+                </p>
+                <a href="https://www.blockchain.com/explorer" class="btn cta" id="hero-btn">EXPLORE MORE</a>
+            </div>
+
+
+            <aside class="coin-list" aria-label="Top coins">
+                <div class="coin">
+                    <img src="bitcoin.png" alt="Bitcoin" class="btc-img" />
+                    <div>
+                        <h3 id="BTC">$00</h3>
+                        <a href="https://bitcoin.org/en/" aria-label="Bitcoin details">Bitcoin</a>
+                    </div>
+                </div>
+
+                <div class="coin">
+                    <img src="ethereum.png" alt="Ethereum" class="eth-img" />
+                    <div>
+                        <h3 id="ETH">$00</h3>
+                        <a href="https://ethereum.org/learn/" aria-label="Ethereum details">Ethereum</a>
+                    </div>
+                </div>
+
+                <div class="coin">
+                    <img src="dogecoin.png" alt="Dogecoin" class="dog-img" />
+                    <div>
+                        <h3 id="DOG">$00</h3>
+                        <a href="https://dogecoin.com/" aria-label="Dogecoin details">Dogecoin</a>
+                    </div>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+
+</html>
